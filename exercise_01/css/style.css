@@ -1,0 +1,52 @@
+/* This is the external style sheet. Write some css rules here. */
+
+html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    /* Reset basic */
+}
+
+#introduction-container {
+    background-color: #50514F;
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#introduction-container h1 {
+    color: #FFE066;
+    text-align: center;
+}
+
+.container-padding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#color-example-1 div {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    height: 50px;
+    width: 50px;
+
+    border-radius: 5px;
+
+    border: 1px solid black;
+}
+
+#color-example-2 div {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    height: 80px;
+    width: 80px;
+
+    border-radius: 10px;
+
+    border: 1px solid black;
+}
